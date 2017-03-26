@@ -1,0 +1,177 @@
+
+header { 
+width: 100%; 
+color:white;
+position: relative; 
+background:black;
+}
+#authorheader{
+    width: 100%;
+    text-align:center;
+}
+#webheader{
+    width:100%;
+    height: 70px;
+}
+#title{
+    padding-left:70px;
+    line-height: 80px;
+    font-size:40px;
+}
+body{ 
+background-image: url(pictures/homebg.jpg);
+background-size: cover;
+font-family: 'Times New Roman', serif, Helvetica, sans-serif;
+font-size: 14px; 
+margin: 0px;
+min-width: 1440px;
+max-width: 1920px;
+min-height: 1080px;
+}
+.contentbody{
+    background-image: url(pictures/bg.jpg);
+    background-size: cover;
+}
+.homepagefooter{
+    margin-top: 850px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background:black; 
+    font-size: 15px;
+    color:white;
+    padding-left:100px;
+    }
+
+.homepagefooter a{
+    text-decoration: none;
+    color: white;
+}
+
+.homepagefooter a :visited{
+    color: white;
+}
+
+.homepagefooter a:hover{
+    color: yellow;
+}
+
+.contentfooter{
+    margin-top: 250px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background:black; 
+    font-size: 15px;
+    color: white;
+    padding-left: 100px;
+    }
+
+.contentfooter a{
+    text-decoration: none;
+    color:white;
+}
+
+.contentfooter a :visited{
+    color: white;
+}
+
+.contentfooter a:hover{
+    color: yellow;
+}
+
+
+.nav{
+    background:gray;
+    width: 100%;
+    height: 40px;
+    opacity: 0.6;
+}
+.nav ul{
+    list-style: none;
+    width:auto;
+    margin: 0px auto 0px auto;
+    padding: 0;   
+    
+}
+.nav ul li{
+    float:left;
+}
+.nav ul li a{
+    width:180px;
+    height:40px;
+    line-height:40px;
+    background: gray;
+    color:#FFF;
+    font-size: 16px;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: black;
+    background: yellow;
+}
+#messi
+{
+    position:absolute;
+    left: 1050px;
+    top:230px;
+    display:block;
+    width:300px;
+    height:400px;
+    margin:0px;
+    padding:0px;
+    }   
+#Introductiontext{
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    opacity:0.6;
+    padding:50px;
+    padding-bottom: 100px;
+    min-height: 300px;
+    max-width: 700px;
+
+    }
+.content{
+margin-top: 100px;
+margin-left: 200px; 
+margin-right: 200px;
+background-color: #ffffff;
+opacity:0.6;
+padding:50px;
+padding-bottom: 200px;
+}
+#homepagep1{
+    position:absolute;
+    left:300px;
+    top:250px;
+    width:400px;
+    height:500px;
+}
+#homepagep2{
+    position:absolute;
+    left:900px;
+    top:250px;
+    width:400px;
+    height:500px;
+}
+.img{
+    float:left;
+    display: block;
+    opacity: 1.0;
+    padding: 0;
+    margin: 0;
+    
+
+}
+.img :hover{
+    opacity: 0.7;
+}
+.table{
+    border-collapse: collapse;
+    text-align: center;
+}
+.table,th,td{
+    border: 1px solid black;
+}
+
